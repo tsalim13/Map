@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<markers>
+ <marker id="1" name="Emplacement test tlemcen" adrReg="Tlemcen, Boulevard Derrar Abderrahman" lat="34.902916" lng="-1.298632" type="Panneau d’information" etat="0" photo="1_SirpIsPJT9q4m3.png"/>
+ <marker id="2" name="" adrReg="Tlemcen, Boulevard de l'ALN" lat="34.875236" lng="-1.306557" type="Panneau électronique" etat="0" photo="2_MFpZFNToT0g6ET.jpg"/>
+ <marker id="3" name="Test panneau tlm" adrReg="Tlemcen, Boulevard Ain Sbaa Ali" lat="34.880446" lng="-1.325955" type="type panneau 2" etat="0" photo="3_WrR9LVEtArEHP9.jpg"/>
+ <marker id="4" name="test Alger" adrReg="Bordj El Kiffan, N24" lat="36.743137" lng="3.193038" type="Panneau déroulant" etat="0" photo="4_6ikdbkdvjzj3AE.jpg"/>
+ <marker id="5" name="test hydra" adrReg="Hydra, N5" lat="36.7452" lng="3.026183" type="type panneau 2" etat="0" photo="5_Q6AebgxUCDDhwR.jpg"/>
+ <marker id="6" name="Alger emplacement2" adrReg="Bourouba, Rue Haouas Chabane" lat="36.713839" lng="3.117726" type="type panneau 3" etat="2" photo="6_gsOwH0KAtHKx5f.jpg"/>
+ <marker id="8" name="" adrReg="Kouba, N63" lat="36.717864" lng="3.092062" type="Panneau d’information" etat="0" photo=""/>
+ <marker id="9" name="" adrReg="Kouba, Route Inter Quartier" lat="36.725031" lng="3.081587" type="" etat="0" photo="9_c9swjManh04xnI.jpg"/>
+ <marker id="10" name="" adrReg="Sidi Maarouf, Unnamed Road" lat="35.675149" lng="-0.538225" type="Panneau à LEDS" etat="0" photo="10_7s3GDhLzYi0Joz.jpg"/>
+ <marker id="11" name="test edit oran 123" adrReg="Aïn El Turk, W84" lat="35.729496" lng="-0.766888" type="type panneau 1" etat="0" photo="11_c6O9xv6ge3J5bF.png"/>
+ <marker id="12" name="Oran test" adrReg="Oran, 4e Rocade d'Oran" lat="35.651055" lng="-0.690722" type="Panneau électronique" etat="0" photo=""/>
+ <marker id="13" name="amine test" adrReg="Tlemcen, Boulevard 18 Fevrier" lat="34.886169" lng="-1.34041" type="type panneau 2" etat="0" photo="13_clGQfJHPpA0yq6.jpg"/>
+ <marker id="14" name="" adrReg="Birkhadem, Rue Ali BENCHABANE" lat="36.716876" lng="3.05082" type="Panneau d’information" etat="0" photo="14_Pz0TjmQ3XT8jtV.jpg"/>
+ <marker id="15" name="" adrReg="Tlemcen, Bvd Kazi Aouel Med" lat="34.884977" lng="-1.316157" type="Panneau électronique" etat="0" photo="15_40ebIGZYmPgrj2.jpg"/>
+ <marker id="16" name="Oran test desk" adrReg="Oran, 19 Mars" lat="35.711393" lng="-0.625636" type="" etat="0" photo="16_C7MfGOyJAtGTeO.PNG"/>
+ <marker id="21" name="alger test1" adrReg="Beaulieu, Avenue Ahmed Hamidouche" lat="36.709806" lng="3.158397" type="Test test" etat="0" photo=""/>
+ <marker id="39" name="aaaaaaa0023655451" adrReg="Ain Djasser, N75" lat="35.868263" lng="5.986754" type="Test test" etat="0" photo="39_1MOvwHFyo6TxZL.jpg"/>
+</markers>

@@ -1,0 +1,22 @@
+type des panneaux:
+- crud
+
+-chaque face a un type est un support
+
+caracteristique des panneaux:
+-support d'impression (par rapport a la face)
+-dimmension
+-photo
+-wilaya
+-nombre de face (chaque face independatnet, support....)
+-identifiant
+-codification  GP-1001-A    
+	       GP-1002-B
+(si tri-vision) GP-1003-A GP-1003-B
+
+
+
+compagne (peut etre liée a un client, sinon libre) crud
+-durée
+-photos (apres l'affichage propore au client ou a la compagne)
+-id face
