@@ -3,6 +3,7 @@
 namespace App\Repositories;
 
 use App\Louer;
+use App\Client;
 
 class LouerRepository
 {
@@ -50,6 +51,22 @@ class LouerRepository
 	public function destroy($id)
 	{
 		$this->getById($id)->delete();
+	}
+
+	public function countByClient()
+	{
+               return \DB::table('louers')
+				  ->select('client_id', \DB::raw('count(*) as total'))
+				  ->groupBy('client_id')
+				  ->get();
+	}
+	public function countByClientAct()
+	{
+               return \DB::table('louers')
+				  ->select('client_id', \DB::raw('count(*) as total'))
+				  ->where('etat',1)
+				  ->groupBy('client_id')
+				  ->get();
 	}
 
 }

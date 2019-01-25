@@ -19,12 +19,13 @@ class AccueilController extends Controller
     
     public function index()
     {
-    	$co = $this->verifLocations();
-        return view('accueil',compact('co'));
+    	$co = $this->louerRepository->countByClient();
+        $co_act = $this->louerRepository->countByClientAct();
+        return view('accueil',compact('co','co_act'));
     }
 
 
-    public function verifLocations()
+    /*public function locationsByclient()
     {
     	$louers = $this->louerRepository->index();
     	if($louers->isNotEmpty())
@@ -48,6 +49,6 @@ class AccueilController extends Controller
             }
     	}
 
-    }
+    }*/
 
 }
