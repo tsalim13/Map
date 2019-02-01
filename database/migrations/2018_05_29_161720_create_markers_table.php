@@ -16,6 +16,8 @@ class CreateMarkersTable extends Migration
         Schema::create('markers', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name', 60);
+            $table->string('adrReg', 120)->nullable();
+            $table->string('wilaya', 30)->nullable();
             $table->float('lat', 10, 6);
             $table->float('lng', 10, 6);
             $table->integer('etat')->default(0);

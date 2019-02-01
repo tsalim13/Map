@@ -21,21 +21,21 @@ use Carbon\Carbon;
 class LocationsHistController extends Controller
 {
     protected $clientRepository;
-    protected $louerRepository;
+    protected $louerHistRepository;
     protected $markerRepository;
     protected $faceRepository;
     
-    public function __construct(ClientRepository $clientRepository, LouerHistRepository $louerRepository, MarkerRepository $markerRepository, FaceRepository $faceRepository)
+    public function __construct(ClientRepository $clientRepository, LouerHistRepository $louerHistRepository, MarkerRepository $markerRepository, FaceRepository $faceRepository)
     {
         $this->clientRepository = $clientRepository;
-        $this->louerRepository = $louerRepository;
+        $this->louerHistRepository = $louerHistRepository;
         $this->markerRepository = $markerRepository;
         $this->faceRepository = $faceRepository;
     }
     public function locationListeHist()
     {
         $locations = collect([]);
-        $louers = $this->louerRepository->index();
+        $louers = $this->louerHistRepository->index();
         if($louers->isNotEmpty())
         {
             foreach ($louers as $louer) 

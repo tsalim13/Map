@@ -22,6 +22,16 @@ class CreateUsersTable extends Migration
             $table->string('role',20);
             $table->rememberToken();
         });
+
+        // Insert some stuff
+        DB::table('users')->insert(
+        array(
+            'name' => 'default user',
+            'email' => 'default@user.com',
+            'password' => 'defaultuseradmin',
+            'role' => 'admin'
+            )
+        );
     }
 
     /**

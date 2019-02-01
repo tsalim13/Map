@@ -17,7 +17,7 @@ class CreateFacesTable extends Migration
             $table->increments('id');
             $table->integer('id_emplacement')->unsigned()->nullable();
             $table->integer('id_support')->unsigned()->nullable();
-            $table->string('code', 15)->unique();
+            $table->string('codif', 15)->unique();
             $table->boolean('etat');
             $table->foreign('id_emplacement')->references('id')->on('markers')
                         ->onDelete('SET NULL')

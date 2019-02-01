@@ -17,4 +17,5 @@
  <marker id="16" name="Oran test desk" adrReg="Oran, 19 Mars" lat="35.711393" lng="-0.625636" type="" etat="0" photo="16_C7MfGOyJAtGTeO.PNG"/>
  <marker id="21" name="alger test1" adrReg="Beaulieu, Avenue Ahmed Hamidouche" lat="36.709806" lng="3.158397" type="Test test" etat="0" photo=""/>
  <marker id="39" name="aaaaaaa0023655451" adrReg="Ain Djasser, N75" lat="35.868263" lng="5.986754" type="Test test" etat="0" photo="39_1MOvwHFyo6TxZL.jpg"/>
+ <marker id="40" name="client 3" adrReg="DZ, Wilaya de Djelfa" lat="35.551847" lng="3.231437" type="Panneau d’information" etat="0" photo=""/>
 </markers>
