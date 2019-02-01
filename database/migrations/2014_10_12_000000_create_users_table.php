@@ -23,7 +23,7 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
         });
 
-        // Insert some stuff
+
         DB::table('users')->insert(
         array(
             'name' => 'default user',
