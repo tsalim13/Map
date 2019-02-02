@@ -28,7 +28,7 @@ class CreateUsersTable extends Migration
         array(
             'name' => 'default user',
             'email' => 'default@user.com',
-            'password' => 'defaultuseradmin',
+            'password' => bcrypt('defaultuseradmin),
             'role' => 'admin'
             )
         );
