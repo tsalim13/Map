@@ -9,5 +9,5 @@ class Face extends Model
     protected $table = 'faces';
     public $timestamps = false;
 
-    protected $fillable = ['id_emplacement','id_support','codif','etat'];
+    protected $fillable = ['id_emplacement','id_support','codif','etat','tarif_unite'];
 }

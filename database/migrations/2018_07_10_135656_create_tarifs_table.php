@@ -17,9 +17,7 @@ class CreateTarifsTable extends Migration
             $table->increments('id');
             $table->integer('id_face')->unsigned();
             $table->integer('id_horaire')->unsigned();
-            $table->integer('minuterie', 15);
-            $table->integer('heure_de_pointe', 15);
-            $table->integer('nbr_deffilement', 15);
+            $table->integer('tarif_horaire', 11);
             $table->foreign('id_face')->references('id')->on('faces')
                         ->onDelete('cascade')
                         ->onUpdate('cascade');

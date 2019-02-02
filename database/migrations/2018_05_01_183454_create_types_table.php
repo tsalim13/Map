@@ -16,6 +16,8 @@ class CreateTypesTable extends Migration
         Schema::create('types', function (Blueprint $table) {
             $table->increments('id');
             $table->string('intitule', 100);
+            $table->integer('unite_val', 11);
+            $table->string('unite', 20);
         });
     }
 

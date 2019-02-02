@@ -19,6 +19,7 @@ class CreateFacesTable extends Migration
             $table->integer('id_support')->unsigned()->nullable();
             $table->string('codif', 15)->unique();
             $table->boolean('etat');
+            $table->integer('tarif_unite');
             $table->foreign('id_emplacement')->references('id')->on('markers')
                         ->onDelete('SET NULL')
                         ->onUpdate('cascade');

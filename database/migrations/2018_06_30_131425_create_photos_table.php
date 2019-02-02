@@ -16,7 +16,7 @@ class CreatePhotosTable extends Migration
         Schema::create('photos', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('id_emplacement')->unsigned()->nullable();
-            $table->string('titre', 15);
+            $table->string('title', 15);
             $table->foreign('id_emplacement')->references('id')->on('markers')
                         ->onDelete('cascade')
                         ->onUpdate('cascade');
